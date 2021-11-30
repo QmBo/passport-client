@@ -32,7 +32,7 @@ public class PassportRepository {
      * @param url    the url
      * @param client the client
      */
-    public PassportRepository(@Value("${passport.api.url}") String url, RestTemplate client) {
+    public PassportRepository(@Value("${ru.job4j.api.url}") String url, RestTemplate client) {
         this.url = url;
         this.client = client;
     }
